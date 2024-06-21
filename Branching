@@ -1,0 +1,20 @@
+Main (Production Code)
+|
+|
+|-> Feature
+|
+|-> Test
+|
+|-> Release
+|
+|-> Hotfix
+
+git remote add origin(Alias) <Repository Link> --> SSH access of repository
+git remote rm <alias> --> To delete repositories from remote
+git branch --> to check branches in repositories (* represents present working branch)
+git branch <branch-name> --> to create new branch
+git checkout <Branch_name> --> to switch working branch
+git checkout -b <Branch_name> --> to create new branch and switch to it simultanouesly
+git push origin(alias) <branch_name> --> to push file/files to created branch
+
+
